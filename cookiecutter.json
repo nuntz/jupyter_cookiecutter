@@ -1,0 +1,6 @@
+{
+    "project_name": "project_name",
+    "directory_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "notebook_name": "{{ cookiecutter.project_name.replace(' ', '_') }}.ipynb",
+    "description": "More background on the project"
+}
